@@ -1,0 +1,75 @@
+
+
+.container{
+    background-color: #034f84;
+    padding: 15px;
+    display: flex;
+    height: 500px;
+    align-items: flex-start;
+
+}
+
+.item{
+    background-color: #f7786b;
+    color: #fff;
+    font-size: 25px;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+/* Align Self Özelliği
+
+Itemları konumlandırmaya yarayan özelliktir. */
+
+/* align-self: flex-start; // Itemları verdiğimiz genişliğin en başta konumlandırır. */
+/* align-self: center; // Itemları verdiğimiz genişliğin ortasında konumlandırır. */
+/* align-self: flex-end; // Itemları verdiğimiz genişliğin en sonunda konumlandırır. */
+
+/* Flex-grow Özelliği */
+
+/* Büyüklük ayarı yapmaya yarar. flex-grow:0 / default değer */
+
+/* Flex-basis Özelliği */
+
+/* Itemlara Sabit bir genişlik değeri vermemize yarar. */
+
+/* Flex-shrink Özelliği */
+
+/* Flex-basis özelliğiyle genişlik kazandırdığımız elemanın tarayıcı küçülse bile,
+genişliğinin küçülmemesini sağlayan özelliktir. */
+/* flex-shrink:1 / Default değeri */
+
+/* Flex-grow, flex-shrink, flex-basis özelliklerini tek satırda yazma */
+/* flex: grow shrink basis; */
+
+/* Order Özelliği */
+/* Sıralama yapmamıza yarayan bir özelliktir. Default değeri:0  */
+
+/* 
+Flex özelliğini yüzde ile oran vermek için de kullanabiliriz. Örn: flex: 50%; */
+
+.item-1{
+    /* align-self: flex-start; */
+    /* flex-grow: 3; */
+    /* order: 4; */
+    flex: 50%;
+}
+
+.item-2{
+    /* align-self: center; */
+    /* flex-grow: 1; */
+    /* order: 1; */
+    flex: 25%;
+}
+
+.item-3{
+    /* align-self: flex-end; */
+    /* flex-grow: 1; */
+    /* flex-basis: 600px;
+    flex-shrink: 0; */
+    /* order: 2; */
+    flex: 25%;
+    /* flex: 0 0 300px; */
+}
+

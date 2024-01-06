@@ -1,0 +1,42 @@
+
+
+
+/* Align-Content Özelliği */
+/* 
+Flex:wrap özelliğini ve align-items:center özelliğini verdiğimde elemanlar tek satırda tam ortaya geliyorlar
+ancak iki satırda hizalamak istediğimizde her bir tanesi kendi satırında kendini ortaya alır.
+
+Align-items:center özelliği yerine align-content:center dersem 
+elemanların hepsi verdiğim yüksekliğe göre tam ortaya gelir. */
+
+/* GAP Özelliği
+
+Marginin alternatifidir. Kapsayıcı elemana verilir. Marginden farkı kolonlar ve satırlar arasında boşluk bırakır.
+Diğer kısımlarda boşluk bırakmaz. */
+
+
+
+.container{
+    background-color: #034f84;
+   
+    display: flex;
+    height: 500px;    
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: space-around; */
+      /* align-content: space-between; */
+      /* align-content: space-evenly; */
+    gap: 20px;
+    /* row-gap: 20px; */
+    /* column-gap: 20px; */
+}
+
+.item{
+    background-color: #f7786b;
+    color: #fff;
+    font-size: 25px;
+    padding: 30px;
+    /* margin: 20px; */
+}

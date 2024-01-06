@@ -1,0 +1,33 @@
+
+
+
+
+.container{
+    background-color: #034f84;
+    padding: 15px;
+    display: flex;
+    height: 500px;
+/*     
+    justify-content Özellikleri */
+    
+    /* justify-content: center; Elemanları yatayda ortalar */
+    /* justify-content: flex-start; //Default değer  */
+    /* justify-content: flex-end; //Elemanları yatayda en sonda konumlandırır. */
+    /* justify-content: space-around; // Kenarlarla arasında x birim, itemlar arasında 2x birim boşluk bırakarak konumlandırma yapar. */
+    /* justify-content: space-between; // Kenarlarla arasında boşluk bırakmaz. Itemlar arasında x birim boşluk bırakır. */
+    /* justify-content: space-evenly; // Baştan sona eşit bir şekilde boşluk bırakılır. */
+   
+    /* align-items: stretch; // Default değer */
+    /* align-items: flex-start; //İçerik kadar yer kaplar, bütün elemanlar en başta konumlanır. */
+    /* align-items: flex-end; // İçerik kadar yer kaplar, bütün elemanlar en sonda konumlanır.  */
+    /* align-items: center;  // Verdiğimiz yüksekliğin ortasına konumlanırlar. */
+  
+}
+
+.item{
+    background-color: #f7786b;
+    color: #fff;
+    font-size: 25px;
+    padding: 30px;
+    margin: 20px;
+}

@@ -1,0 +1,82 @@
+
+
+html{
+    font-size: 10px;
+}
+
+h1{
+   font-size: 4.4rem; 
+}
+
+h2{
+    font-size: 3.5rem;
+   
+}
+
+
+
+
+
+/* Media Query Standart Aralıklar */
+
+/* Telefon Ekranı */
+@media(min-width:375px){
+    body{
+      background-color: aqua;
+    } 
+    
+    html{
+        font-size: 7px;
+    }
+  
+  }
+  
+  /* Landscape - Yan çevrilmiş telefonlar */
+  
+  @media(min-width:576px){
+      body{
+          background-color: yellow;
+        }   
+        html{
+            font-size: 8px;
+        }
+       
+  }
+  
+  /* Tabletler */
+  
+  @media(min-width:768px){
+      body{
+          background-color: red;
+        }  
+        html{
+            font-size: 9px;
+        } 
+        
+  }
+  
+  /* Desktop */
+  @media(min-width:992px){
+      body{
+          background-color: pink;
+        }   
+        
+  }
+  
+  /* Large Desktop */
+  @media(min-width:1200px){
+      body{
+          background-color: green;
+        }  
+         
+  }
+  
+  /* X-large desktop */
+  @media(min-width:1400px){
+      body{
+          background-color: blue;
+        } 
+       
+  }
+  
+  

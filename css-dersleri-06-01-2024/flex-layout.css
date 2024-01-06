@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: goldenrod;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 20px;
+   
+}
+
+nav a:hover{
+    background-color: #ddd;
+    color: #000;
+}
+
+.ph{
+    background-color: #aaa;
+    padding: 20px;
+    margin-top: 10px;
+}
